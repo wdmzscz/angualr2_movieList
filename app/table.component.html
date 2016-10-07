@@ -1,0 +1,6 @@
+<h1>welcome to my shop</h1>
+
+<p>We have following movies available</p>
+<ul>
+	<li *ngFor=' let movieList of movieLists' (click)='selectedMovie(movie)'>{{movieList.movie}}</li>
+</ul>
