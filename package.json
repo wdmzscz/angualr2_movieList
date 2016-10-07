@@ -1,5 +1,5 @@
 {
-  "name": "angular-quickstart",
+  "name": "angular2",
   "version": "1.0.0",
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
@@ -32,6 +32,17 @@
     "concurrently": "^3.0.0",
     "lite-server": "^2.2.2",
     "typescript": "^2.0.3",
-    "typings":"^1.4.0"
-  }
+    "typings": "^1.4.0"
+  },
+  "main": "systemjs.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdmzscz/angualr2_movieList.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/wdmzscz/angualr2_movieList/issues"
+  },
+  "homepage": "https://github.com/wdmzscz/angualr2_movieList#readme",
+  "description": ""
 }
