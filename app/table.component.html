@@ -1,6 +1,16 @@
 <h1>welcome to my shop</h1>
 
-<p>We have following movies available</p>
+<div id="myMovieList"></div>
+<h2>We have following movies available</h2>
+
+	<div *ngFor=' let movieList of movieLists' (click)='selectedMovie(movieList)'
+	 >
+	{{movieList.movie}}</div>
+
+<div id="cart"></div>
+<h3>Recently added Movie:</h3>
+<P>{{recentMovie}}</P>
+<h3>cart:</h3>
 <ul>
-	<li *ngFor=' let movieList of movieLists' (click)='selectedMovie(movie)'>{{movieList.movie}}</li>
+	<li *ngFor=' let item of cart'>{{item}}</li>
 </ul>
