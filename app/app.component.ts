@@ -17,6 +17,7 @@ export class myShopComponent {
 		"img" : "static.bandainamcogames.eu/sites_products/onepiece/uploads/2016/03/home-logo_en-1-1.png"
 	}];
 	public cart =[];
+	public recentMovie=[];
 	selectedMovie(movieList){
 		this.recentMovie=movieList.movie;
 		alert(movieList.movie + " the movie had already added");
